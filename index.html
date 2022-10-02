@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Forca byElianeSPSilva</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="./assets/logo-alura.svg" alt="logo alura" class="logo">
+  <div id="div-desaparece" class="botoes-home">
+    <a href="#forca">
+      <input class="btn-iniciar" id="iniciar-jogo" onclick="iniciarJogo()" value="iniciar Jogo" type="submit">
+    </a>
+  </div>
+  <div id="div-aparece-forca" class="canvas">
+    <canvas id="forca" height="860" width="1200"></canvas>
+    <div class="sublinhado"></div>
+  </div>
+
+  <footer>Desenvolvido por: ✨Eliane SP Silva✨</footer>
+  <!-- links -->
+  <script type="text/javascript" src="forca.js"></script>
+  <script type="text/javascript" src="canvas.js"></script>
+</body>
+</html>
+
